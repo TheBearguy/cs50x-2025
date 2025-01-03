@@ -1,0 +1,5 @@
+# Ignore virtual environment
+CS50/
+.env
+*.pyc
+__pycache__/
