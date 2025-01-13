@@ -9,3 +9,5 @@ with open("favorites.csv", "r") as file:
 
 for favourite in sorted(counts, key=counts.get, reverse=True):
     print(f"{favourite}: {counts[favourite]}")
+
+
